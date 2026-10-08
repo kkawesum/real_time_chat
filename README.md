@@ -33,14 +33,3 @@ Daphne (ASGI)
 GitHub Actions
 AWS EC2
 AWS S3 (media storage)
-High-Level Architecture
-                React Frontend
-                     │
-        REST API + WebSocket
-                     │
-             Django Backend
-        ┌────────┼────────┐
-        │        │        │
- PostgreSQL   Redis   Celery
-        │
-     Media Storage (S3)
